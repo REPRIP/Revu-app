@@ -10,7 +10,7 @@ model = genai.GenerativeModel("gemini-1.5-pro")
 st.title("Product Review Analyzer")
 
 # Input field for the product link or name
-user_input = st.text_input("Enter Amazon/Flipkart link or Product name:")
+user_input = st.text_input("Enter Product name:")
 
 # Button to trigger review analysis
 if st.button("Get Reviews"):
